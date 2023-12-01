@@ -19,19 +19,19 @@ The dataset was created by cleaning and processing music recordings from three a
     <td align="center">
       <img src="images/album.png" alt="vis1" width="400">
       <br>
-      loss
+      Albums
     </td>
-  </tr>
-  <td align="center">
-      <img src="images/dastgah-avaz.png" alt="vis1" width="700">
-      <br>
-      loss
-    </td>
+    <td align="center">
+        <img src="images/dastgah-avaz.png" alt="vis1" width="700">
+        <br>
+        dastgah-avaz
+      </td>
+    </tr>
   <tr>
     <td align="center">
       <img src="images/windo-overlap.png" alt="vis1" width="700">
       <br>
-      loss
+      windows
     </td>
   </tr>
 </table>
