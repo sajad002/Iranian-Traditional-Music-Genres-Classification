@@ -14,7 +14,7 @@ The dataset was created by cleaning and processing music recordings from three a
 3. The recordings were converted to mono and resampled.
 4. The recordings were divided into windows with desired length and overlap.
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <img src="images/album.png" alt="vis1" width="400">
@@ -45,7 +45,7 @@ The dataset was created by cleaning and processing music recordings from three a
 
 The Mel-frequency cepstrum (MFCC) is a popular feature extraction technique for audio signals. It captures the spectral characteristics of an audio signal in a way that is well-suited for human perception. The MFCC is calculated by applying a mel filterbank to the magnitude spectrum of an audio signal and then taking the logarithm of the energy in each filterbank.
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <img src="images/Mel1.png" alt="vis1" width="700">
@@ -70,7 +70,7 @@ The CNN model consists of Classification layers:
 ### Training and Evaluation
 
 The model was trained on the dataset of 604 Persian classical music recordings and each recording give multiple windows according to the window length and overlap. The model was evaluated on a held-out test set and achieved an accuracy of 70-80%.
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <img src="images/acc1.png" alt="vis1" width="700">
