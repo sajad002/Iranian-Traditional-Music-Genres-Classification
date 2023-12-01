@@ -7,7 +7,7 @@ This project implements a convolutional neural network (CNN) model to classify m
 
 You can access the dataset and other files from the following link:
 
-<p><a href="[https://physionet.org/content/chbmit/1.0.0/](https://drive.google.com/drive/folders/1wKCDWJZEF_8GMXMdqnoWb-z9l9cbeRVY?usp=sharing)">Dataset Link</a></p>
+<a href="[https://physionet.org/content/chbmit/1.0.0/](https://drive.google.com/drive/folders/1wKCDWJZEF_8GMXMdqnoWb-z9l9cbeRVY?usp=sharing)">Dataset Link</a>
 
 ### Data Preprocessing
 
