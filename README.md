@@ -1,6 +1,6 @@
 # Iranian-Traditional-Music-Genres-Classification
 
-This project implements a convolutional neural network (CNN) model to classify music genres from audio recordings captured through a microphone. The model is trained on a dataset of 998 Persian classical music recordings, classified into 13 categories:
+This project implements a convolutional neural network (CNN) model to classify music genres from audio recordings captured through a microphone. The model is trained on a dataset of 604 Persian classical music recordings, classified into 13 categories:
 
 - 7 dastgahs: Homayun, Mahur, Shur, Segah, Chahargah, Rastpanjgah, Nava
 - 6 avazs: Afshari, Dashti, Abu Atash, Bayati Tork, Bayati Esfahan, Bayati Kurd
@@ -11,9 +11,27 @@ The dataset was created by cleaning and processing music recordings from three a
 
 1. The recordings were divided into albums and then into dastgahs and avazs.
 2. The beginning of each recording, which typically contains human vocals, was removed.
-3. The recordings were converted to mono and resampled to 16 kHz.
-4. The recordings were divided into windows of 2 seconds with 50% overlap.
-
+3. The recordings were converted to mono and resampled.
+4. The recordings were divided into windows with desired length and overlap.
+</p>
+<p align="center">
+  <img src="int.png" alt="Intro" width="500" />
+</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/album.png" alt="vis1" width="400">
+      <br>
+      loss
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/dastgah-avaz.png" alt="vis1" width="400">
+      <br>
+      loss
+    </td>
+  </tr>
 ### Feature Extraction
 
 The Mel-frequency cepstrum (MFCC) is a popular feature extraction technique for audio signals. It captures the spectral characteristics of an audio signal in a way that is well-suited for human perception. The MFCC is calculated by applying a mel filterbank to the magnitude spectrum of an audio signal and then taking the logarithm of the energy in each filterbank.
