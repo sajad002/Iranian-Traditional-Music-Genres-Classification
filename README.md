@@ -57,7 +57,7 @@ The Mel-frequency cepstrum (MFCC) is a popular feature extraction technique for 
         dastgah-avaz
       </td>
     </tr>
-  <\table>
+</table>
 
 ### Model Architecture
 
