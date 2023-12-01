@@ -13,10 +13,7 @@ The dataset was created by cleaning and processing music recordings from three a
 2. The beginning of each recording, which typically contains human vocals, was removed.
 3. The recordings were converted to mono and resampled.
 4. The recordings were divided into windows with desired length and overlap.
-</p>
-<p align="center">
-  <img src="int.png" alt="Intro" width="500" />
-</p>
+
 <table>
   <tr>
     <td align="center">
