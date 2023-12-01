@@ -24,7 +24,7 @@ The dataset was created by cleaning and processing music recordings from three a
   </tr>
   <tr>
     <td align="center">
-      <img src="images/dastgah-avaz.png" alt="vis1" width="400">
+      <img src="images/dastgah-avaz.png" alt="vis1" width="700">
       <br>
       loss
     </td>
