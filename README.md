@@ -30,6 +30,8 @@ The dataset was created by cleaning and processing music recordings from three a
     </td>
   </tr>
 </table>
+
+
 ### Feature Extraction
 
 The Mel-frequency cepstrum (MFCC) is a popular feature extraction technique for audio signals. It captures the spectral characteristics of an audio signal in a way that is well-suited for human perception. The MFCC is calculated by applying a mel filterbank to the magnitude spectrum of an audio signal and then taking the logarithm of the energy in each filterbank.
