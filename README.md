@@ -5,6 +5,10 @@ This project implements a convolutional neural network (CNN) model to classify m
 - 7 dastgahs: Homayun, Mahur, Shur, Segah, Chahargah, Rastpanjgah, Nava
 - 6 avazs: Afshari, Dashti, Abu Atash, Bayati Tork, Bayati Esfahan, Bayati Kurd
 
+You can access the dataset and other files from the following link:
+
+<p><a href="[https://physionet.org/content/chbmit/1.0.0/](https://drive.google.com/drive/folders/1wKCDWJZEF_8GMXMdqnoWb-z9l9cbeRVY?usp=sharing)">Dataset Link</a></p>
+
 ### Data Preprocessing
 
 The dataset was created by cleaning and processing music recordings from three albums. The following steps were taken to create the dataset:
