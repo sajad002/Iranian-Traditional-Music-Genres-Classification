@@ -69,11 +69,11 @@ The CNN model consists of Classification layers:
 
 ### Training and Evaluation
 
-The model was trained on the dataset of 604 Persian classical music recordings and each recording give multiple windows according to the window length and overlap. The model was evaluated on a held-out test set and achieved an accuracy of 93.5%.
+The model was trained on the dataset of 604 Persian classical music recordings and each recording give multiple windows according to the window length and overlap. The model was evaluated on a held-out test set and achieved an accuracy of 70-80%.
 
 ### Conclusion
 
-The CNN model developed in this project demonstrates the feasibility of using deep learning for music genre classification from audio recordings captured through a microphone. The model achieves an accuracy of 93.5% on a held-out test set, which is significantly higher than the baseline accuracy of 50%. The model can be used for a variety of applications, such as real-time music genre detection, music recommendation, and music generation.
+The CNN model developed in this project demonstrates the feasibility of using deep learning for music genre classification from audio recordings captured through a microphone. The model achieves an acceptable accuracy on a held-out test set, which is significantly higher than the baseline accuracy of 50%. The model can be used for a variety of applications, such as real-time music genre detection, music recommendation, and music generation.
 
 ### Future Work
 
