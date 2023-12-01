@@ -70,6 +70,15 @@ The CNN model consists of Classification layers:
 ### Training and Evaluation
 
 The model was trained on the dataset of 604 Persian classical music recordings and each recording give multiple windows according to the window length and overlap. The model was evaluated on a held-out test set and achieved an accuracy of 70-80%.
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/acc1.png" alt="vis1" width="700">
+      <br>
+    </td>
+    </tr>
+</table>
+
 
 ### Conclusion
 
