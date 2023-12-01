@@ -29,6 +29,11 @@ The dataset was created by cleaning and processing music recordings from three a
     </tr>
   <tr>
     <td align="center">
+      <img src="images/data-cleaning.png" alt="vis1" width="700">
+      <br>
+      Removing human vocals
+    </td>
+    <td align="center">
       <img src="images/windo-overlap.png" alt="vis1" width="700">
       <br>
       windows
