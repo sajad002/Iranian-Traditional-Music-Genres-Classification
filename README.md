@@ -63,11 +63,13 @@ The Mel-frequency cepstrum (MFCC) is a popular feature extraction technique for 
 
 The CNN model consists of Classification layers: 
 - The classification layers consist of a series of convolutional layers, pooling layers, and fully-connected layers.
-  - The convolutional layers extract spatial features from the MFCC features, the pooling layers reduce the dimensionality of the features, and the fully-connected layers learn a nonlinear mapping between the extracted features and the music genre labels.
+  - The convolutional layers extract spatial features from the MFCC features
+  - The pooling layers reduce the dimensionality of the features
+  - The fully-connected layers learn a nonlinear mapping between the extracted features and the music genre labels.
 
 ### Training and Evaluation
 
-The model was trained on the dataset of 998 Persian classical music recordings. The model was evaluated on a held-out test set and achieved an accuracy of 93.5%.
+The model was trained on the dataset of 604 Persian classical music recordings and each recording give multiple windows according to the window length and overlap. The model was evaluated on a held-out test set and achieved an accuracy of 93.5%.
 
 ### Conclusion
 
