@@ -1,1 +1,2 @@
-# This repo contaions images 
+# This repo contains images 
+
