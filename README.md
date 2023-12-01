@@ -24,7 +24,6 @@ The dataset was created by cleaning and processing music recordings from three a
     <td align="center">
         <img src="images/dastgah-avaz.png" alt="vis1" width="700">
         <br>
-        dastgah-avaz
       </td>
     </tr>
   <tr>
